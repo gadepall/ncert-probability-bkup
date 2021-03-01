@@ -12,12 +12,28 @@
 Let $X_1 \sim  \gauss{0}{1}$ and $X_2 \sim  \gauss{0}{1}$. Plot the CDF and PDF of
 %
 \begin{equation}
-V = X_1^2 + X_2^2
+V = X_1^2 + X_2^2 
 \end{equation}
 %
+% \solution The following code generates the simulated CDF in Fig. \ref{fig:probman_trans_cdf_V}
+% %
+% \begin{figure}[!ht]
+% \centering
+% \includegraphics[width=\columnwidth]{figs/trans/cdf_V.png}
+% \caption{CDF of $V$}
+% \label{fig:probman_trans_cdf_V}
+% \end{figure}
+% %
+% and the PDF in Fig. \ref{fig:probman_trans_pdf_V}
+% %
+% \begin{figure}[!ht]
+% \centering
+% \includegraphics[width=\columnwidth]{figs/trans/pdf_V.png}
+% \caption{PDF of $V$}
+% \label{fig:probman_trans_pdf_V}
+% \end{figure}
+%
 
-%
-%
 \item
 If
 %
@@ -27,6 +43,7 @@ F_{V}(x) =
 1 - e^{-\alpha x} & x \geq 0 \\
 0 & x < 0,
 \end{cases}
+\label{eq:probman_F_V_alpha}
 \end{equation}
 %
 find $\alpha$.
@@ -44,10 +61,58 @@ A = \sqrt{V}
 %
 \item
 Find an expression for $F_{A}(x)$ using the definition. Plot this expression and compare with the result of problem \ref{ch3_raleigh_sim}. 
+\\
+\solution 
+% Given,
+% \begin{align}
+% A = \sqrt{V}
+% \end{align}
 
+\begin{align} 
+F_A(x) &= \pr{A \le x} = \pr{\sqrt{V} \le x}
+\\
+&= \pr{V \le x^2} = F_V\brak{x^2}
+\end{align}
+%
+From \label{eq:probman_F_V_alpha}, 
+\begin{align} 
+F_V\brak{x^2} = 
+\begin{cases}
+1 - e^{-\alpha x^2} & x \geq 0 \\
+0 & x < 0,
+\end{cases}
+\end{align}
+%
+Substituting 
+
+\begin{align}
+\alpha = \frac{1}{2}
+\end{align}
+
+%
+\begin{align} 
+F_V\brak{x^2} = 
+\begin{cases}
+1 - e^{- \frac{x^2}{2}} & x \geq 0 \\
+0 & x < 0,
+\end{cases}
+\end{align}
 %
 \item
 Find an expression for $p_{A}(x)$.
+\\
+\solution
+The PDf is obtained as
+\begin{align}
+f_V\brak{x^2} &= \frac{d}{dx}F_V\brak{x^2}
+\\
+&=
+\begin{cases}
+x e^{- \frac{x^2}{2}} & x \geq 0 \\
+0 & x < 0,
+\end{cases}
+\end{align}
+%
 \end{enumerate}
 
 %
