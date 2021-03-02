@@ -74,7 +74,7 @@ F_A(x) &= \pr{A \le x} = \pr{\sqrt{V} \le x}
 &= \pr{V \le x^2} = F_V\brak{x^2}
 \end{align}
 %
-From \label{eq:probman_F_V_alpha}, 
+From \eqref{eq:probman_F_V_alpha}, 
 \begin{align} 
 F_V\brak{x^2} = 
 \begin{cases}
@@ -129,7 +129,15 @@ Evaluate the joint PDF of $X_1,X_2$,  given by
 p_{X_1,X_2}(x_1,x_2) = p_{X_1}\brak{x_1}p_{X_2}\brak{x_2}
 \end{equation}
 %
-
+\solution From \eqref{eq:probman_gauss_pdf}
+\begin{align}
+p_{X_1}(x_1)&=\frac {1}{\sqrt {2\pi }}e^{-\frac {x_1^2}{2}}
+\\
+p_{X_2}(x_2)&=\frac {1}{\sqrt {2\pi }}e^{-\frac {x_2^2}{2}}
+\\
+\implies p_{X_1,X_2}(x_1,x_2) &= \frac {1}{\sqrt {2\pi }}e^{-\frac {x_1^2+x_2^2}{2}}
+\end{align}
+ 
 %
 \item
 Let 
