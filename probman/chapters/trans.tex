@@ -136,6 +136,7 @@ p_{X_1}(x_1)&=\frac {1}{\sqrt {2\pi }}e^{-\frac {x_1^2}{2}}
 p_{X_2}(x_2)&=\frac {1}{\sqrt {2\pi }}e^{-\frac {x_2^2}{2}}
 \\
 \implies p_{X_1,X_2}(x_1,x_2) &= \frac {1}{\sqrt {2\pi }}e^{-\frac {x_1^2+x_2^2}{2}}
+\label{eq:probman_pdf_x1x2}
 \end{align}
  
 %
@@ -156,8 +157,14 @@ J =
 \end{vmatrix}
 \end{equation}
 %
-
-%
+\solution
+\begin{align}
+J=\begin{vmatrix}
+     \frac{1}{2\sqrt{v}}\cos\theta & \frac{1}{2\sqrt{v}}\sin\theta\\
+       -v\sin\theta & v\cos\theta
+\end{vmatrix}=\frac{1}{2}
+\label{eq:probman_jacob_V}
+\end{align}
 \item
 Find
 %
@@ -165,7 +172,10 @@ Find
 p_{V,\Theta}\brak{v,\theta} = \abs{J}p_{X_1,X_2}\brak{x_1,x_2}
 \end{equation}
 %
-
+\solution From \eqref{eq:probman_jacob_V} and \eqref{eq:probman_pdf_x1x2},
+\begin{align}
+p_{V,\Theta}\brak{v,\theta}=\frac{1}{4\pi}\exp{-\frac{v}{2}}, v \ge 0, 0 < \theta < 2\pi
+\end{align}
 %
 \item
 Find $p_{V}(v)$.  
