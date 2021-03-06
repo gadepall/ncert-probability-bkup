@@ -18,3 +18,4 @@
 \contentsline {section}{\numberline {8}Two Dimensions}{9}{section.8}%
 \contentsline {section}{\numberline {9}Transform Domain: Moment Generating Function}{10}{section.9}%
 \contentsline {section}{\numberline {10}Uniform to Other: Quantile function}{10}{section.10}%
+\contentsline {section}{\numberline {11}Miscellaneous Distributions}{11}{section.11}%

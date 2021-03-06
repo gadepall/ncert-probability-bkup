@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.2.13)  6 MAR 2021 07:00
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.2.13)  5 MAR 2021 10:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1834,24 +1834,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-(./solutions/2/2.7.tex
-Underfull \hbox (badness 10000) in paragraph at lines 37--1
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-)
-Underfull \hbox (badness 1953) in paragraph at lines 40--41
+
+Underfull \hbox (badness 1953) in paragraph at lines 39--40
 \TU/txr/m/sc/12 respectively. Further, if the first group
  []
 
 
-Underfull \hbox (badness 3019) in paragraph at lines 40--41
+Underfull \hbox (badness 3019) in paragraph at lines 39--40
 \TU/txr/m/sc/12 wins, the probability of introducing a
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 40--41
+Underfull \hbox (badness 2205) in paragraph at lines 39--40
 \TU/txr/m/sc/12 probability is 0.3 if the second group
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
  []
 
 
@@ -1859,14 +1864,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
+[8]
+Underfull \hbox (badness 4205) in paragraph at lines 41--42
+[]\TU/txr/m/sc/12 A family has two children. What is
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
- []
-
-[8]
-Underfull \hbox (badness 4205) in paragraph at lines 42--43
-[]\TU/txr/m/sc/12 A family has two children. What is
  []
 
 
@@ -1875,52 +1880,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 46--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--51
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 54--55
+Underfull \hbox (badness 1895) in paragraph at lines 53--54
 \TU/txr/m/sc/12 If the coin shows head, toss it again
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 54--55
+Underfull \hbox (badness 1590) in paragraph at lines 53--54
 \TU/txr/m/sc/12 Find the conditional probability of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
@@ -1961,7 +1961,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 )
 
 LaTeX Warning: Reference `table:1.43_boxes' on page 11 undefined on input line 
-86.
+85.
 
 (./solutions/20-10/prob/tables/boxes43.tex
 \gnumericTableWidth=\skip81
@@ -2309,187 +2309,210 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--89
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 90--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
 (./solutions/5/5.19.tex
+Underfull \hbox (badness 10000) in paragraph at lines 102--2
 
-LaTeX Warning: Reference `table:5.19' on page 23 undefined on input line 1.
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23])
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
+ [23]
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 7--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--130
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--135
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 120--124
 
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 124--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 131--132
 []\TU/txr/m/sc/12 Two cards are drawn successively with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+(./solutions/5/5.31.tex
+Underfull \hbox (badness 2111) in paragraph at lines 147--5
+\TU/txr/m/sc/12 Solution: Let $\OML/txmi/m/it/12 X []$ \TU/txr/m/sc/12 be the r
+andom
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+ [24])
 
- []
+LaTeX Warning: Reference `table:prob_exam6' on page 25 undefined on input line 
+151.
 
-(./solutions/5/5.31.tex
-Underfull \hbox (badness 2111) in paragraph at lines 153--5
-\TU/txr/m/sc/12 Solution: Let $\OML/txmi/m/it/12 X []$ \TU/txr/m/sc/12 be the r
-andom
- []
+(./solutions/1-10/chapters/prob_exm/prob6/solution6.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 
-LaTeX Warning: Reference `table:prob_exam6' on page 25 undefined on input line 
-157.
-
-(./solutions/1-10/chapters/prob_exm/prob6/solution6.tex)
-
 LaTeX Warning: Reference `table:prob_exam7' on page 25 undefined on input line 
-180.
+174.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--183
+Underfull \hbox (badness 10000) in paragraph at lines 174--177
 
  []
 
 (./solutions/1-10/chapters/prob_exm/prob7/solution7.tex)
 
 LaTeX Warning: Reference `table:prob_exam9' on page 25 undefined on input line 
-200.
+194.
 
-(./solutions/1-10/chapters/prob_exm/prob9/solution9.tex [25]
+(./solutions/1-10/chapters/prob_exm/prob9/solution9.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-)
+[25])
 
 LaTeX Warning: Reference `table:prob_exam10' on page 26 undefined on input line
- 232.
+ 226.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--238
+Underfull \hbox (badness 10000) in paragraph at lines 228--232
 
  []
 
-(./solutions/1-10/chapters/prob_exm/prob10/solution10.tex
-Underfull \vbox (badness 2293) has occurred while \output is active []
+(./solutions/1-10/chapters/prob_exm/prob10/solution10.tex)
 
-)
+LaTeX Warning: Reference `table:1.2.2' on page 26 undefined on input line 249.
 
-LaTeX Warning: Reference `table:1.2.2' on page 26 undefined on input line 255.
+(./solutions/1-10/chapters/probabilities/problem2/solution.tex)
 
-(./solutions/1-10/chapters/probabilities/problem2/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26])
-
-LaTeX Warning: Reference `fig:1.2.3' on page 27 undefined on input line 279.
+LaTeX Warning: Reference `fig:1.2.3' on page 26 undefined on input line 273.
 
 (./solutions/1-10/chapters/probabilities/problem3/question.tex
 File: ./solutions/1-10/figures/prob/prob3.eps Graphic file (type eps)
 <./solutions/1-10/figures/prob/prob3.eps>
-)
+ [26])
 (./solutions/1-10/chapters/probabilities/problem3/solution.tex)
 
-LaTeX Warning: Reference `table:1.2.4' on page 27 undefined on input line 286.
+LaTeX Warning: Reference `table:1.2.4' on page 27 undefined on input line 280.
+
+(./solutions/1-10/chapters/probabilities/problem4/solution.tex
+Underfull \vbox (badness 2213) has occurred while \output is active []
+
+)
+
+LaTeX Warning: Reference `table:1.2.5' on page 27 undefined on input line 300.
 
 (./solutions/1-10/chapters/probabilities/problem4/solution.tex)
 
-LaTeX Warning: Reference `table:1.2.5' on page 27 undefined on input line 306.
+LaTeX Warning: Reference `table:1.2.7' on page 27 undefined on input line 327.
 
-(./solutions/1-10/chapters/probabilities/problem4/solution.tex)
-
-LaTeX Warning: Reference `table:1.2.7' on page 27 undefined on input line 333.
-
-[27] (./solutions/1-10/chapters/probabilities/problem7/solution.tex
+(./solutions/1-10/chapters/probabilities/problem7/solution.tex [27]
 File: ./solutions/1-10/figures/prob/prob7.eps Graphic file (type eps)
 <./solutions/1-10/figures/prob/prob7.eps>
 )
 
-LaTeX Warning: Reference `table:1.2.8' on page 28 undefined on input line 357.
+LaTeX Warning: Reference `table:1.2.8' on page 28 undefined on input line 351.
 
 (./solutions/1-10/chapters/probabilities/problem6/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-[28]
 
-LaTeX Warning: Reference `table:1.2.8' on page 29 undefined on input line 28.
+LaTeX Warning: Reference `table:1.2.8' on page 28 undefined on input line 28.
 
-)
 
-LaTeX Warning: Reference `table:1.2.10' on page 29 undefined on input line 398.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28])
+
+LaTeX Warning: Reference `table:1.2.10' on page 29 undefined on input line 392.
 
 
 (./solutions/1-10/chapters/probabilities/problem10/solution.tex
 File: ./solutions/1-10/figures/prob/prob10.eps Graphic file (type eps)
 <./solutions/1-10/figures/prob/prob10.eps>
 )
-Underfull \hbox (badness 4886) in paragraph at lines 417--420
+Underfull \hbox (badness 4886) in paragraph at lines 411--414
 \TU/txr/m/sc/12 prepare a frequency distribution table
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--420
+Underfull \hbox (badness 10000) in paragraph at lines 411--414
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--422
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
 
  []
 
@@ -2498,21 +2521,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 420--422
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/20-10/prob/chapters/cards126/solution.tex
-Underfull \vbox (badness 1215) has occurred while \output is active []
+(./solutions/20-10/prob/chapters/cards126/solution.tex [30])
+(./solutions/20-10/prob/chapters/exer129/solution.tex)
 
- [30])
-(./solutions/20-10/prob/chapters/exer129/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-
-LaTeX Warning: Reference `fig:130_dice' on page 31 undefined on input line 449.
+LaTeX Warning: Reference `fig:130_dice' on page 31 undefined on input line 443.
 
 
 (./prob/figs/130.tex) (./solutions/20-10/prob/chapters/exer130/solution.tex
-[31]) (./solutions/10-1/prob/exer6/solution1.tex
-Underfull \hbox (badness 2351) in paragraph at lines 463--2
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31])
+(./solutions/10-1/prob/exer6/solution1.tex
+Underfull \hbox (badness 2351) in paragraph at lines 457--2
 \TU/txr/m/sc/12 there are three possible outcomes—two
  []
 
@@ -2545,12 +2565,12 @@ File: ./prob/figs/rows.eps Graphic file (type eps)
 LaTeX Warning: Reference `table:table1' on page 33 undefined on input line 5.
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 482--6
+Underfull \hbox (badness 2277) in paragraph at lines 476--6
 \TU/txr/m/sc/12 the following table which gives a few
  []
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 482--6
+Overfull \hbox (24.0pt too wide) in paragraph at lines 476--6
 [] 
  []
 
@@ -2592,17 +2612,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--37
 
  []
 
-(./solutions/6/6.8.tex
 
-LaTeX Warning: Reference `eq:axioms_6.8' on page 34 undefined on input line 16.
+Underfull \hbox (badness 10000) in paragraph at lines 37--40
 
-
-
-LaTeX Warning: Reference `eq:axioms_6.8' on page 34 undefined on input line 24.
+ []
 
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
@@ -2610,97 +2646,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--44
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--66
+Underfull \hbox (badness 10000) in paragraph at lines 63--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--76
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 (./solutions/20-30/chapters/prob/examples/docq21.tex)
-(./solutions/20-30/chapters/prob/examples/docq23.tex)
+(./solutions/20-30/chapters/prob/examples/docq23.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34])
 (./solutions/20-30/chapters/prob/examples/docq24.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--105
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--113
-
- []
 
 (./solutions/20-30/chapters/prob/exercises/docq22.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35])
-(./solutions/20-30/chapters/prob/exercises/docq27.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
+(./solutions/20-30/chapters/prob/exercises/docq27.tex)
 (./solutions/20-30/chapters/prob/exercises/docq28.tex)
 (./solutions/20-30/chapters/prob/exercises/docq29.tex)
 (./solutions/40-50/probability/chapters/Q43/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36])
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
 (./solutions/40-50/probability/chapters/Q46/solution.tex)) [37
 
 ]
@@ -2725,12 +2747,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
  ) 
 Here is how much of TeX's memory you used:
- 52004 strings out of 479819
- 1259863 string characters out of 5895846
- 1762283 words of memory out of 5000000
- 67891 multiletter control sequences out of 15000+600000
+ 51992 strings out of 479819
+ 1259688 string characters out of 5895846
+ 1762284 words of memory out of 5000000
+ 67887 multiletter control sequences out of 15000+600000
  578743 words of font info for 169 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 63i,15n,98p,729b,1763s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,98p,729b,1763s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on gvv_ncert_prob.pdf (37 pages).
