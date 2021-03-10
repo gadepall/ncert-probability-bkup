@@ -139,12 +139,23 @@ probability that the card will\\
 \item Find the probability distribution of number of doublets in three throws of a pair of dice?\\
 
 \item Let X denote the number of hours you study during a randomly selected school day. The probability that X can take the values x, has the following form, where k is some unknown constant.\\
-P(X=x)= $\begin{pmatrix} 0.1, if x= 0 \\ kx,if x= 1 or 2 \\ k(5-x), if x= 3 or 4 \\ 0, otherwise \end{pmatrix}$
+\begin{align}
+    P\brak{X=x} =
+    \begin{cases}
+      0.1, & \text{if}\ x=0 \\
+      kx,  & \text{if}\ x= 1 \; \text{or}\ 2 \\
+      k(5-x) & \text{if}\ x= 3 \; \text{or}\ 4 \\
+      0, & \text{otherwise}
+    \end{cases}
+  \end{align}
+%P(X=x)= $\begin{pmatrix} 0.1, if x= 0 \\ kx,if x= 1 or 2 \\ k(5-x), if x= 3 or 4 \\ 0, otherwise \end{pmatrix}$
 \begin{enumerate}
 \item  Find the value of k.
 \item  What is the probability that you study at least two hours ? Exactly two hours? At
 most two hours?
 \end{enumerate}
+\solution
+\input{solutions/5/5.28.tex}
 
 \item Let a pair of dice be thrown and the random variable X be the sum of the numbers that appear on the two dice. Find the mean or expectation of X.\\
 
