@@ -5,6 +5,18 @@
 \item It is given that in a group of 3 students, the probability of 2 students not having the
 same birthday is 0.992. What is the probability that the 2 students have the same
 birthday?
+\\
+\solution 
+We know that two students either have birthday on same date or they don't have same birthday. No other cases are possible.\\
+Therefore, we can consider this as a bernoulli distribution, by defining a random variable X such that,if $X=0$, then they don't have same birthday, if $X=1$, then they have same birthday.
+Therefore,
+\begin{align}
+Pr(X=0)+Pr(X=1)=1\\
+Pr(X=0)=0.992\\
+Pr(X=1)=1-Pr(X=0)\\
+Pr(X=0)=1-0.992\\
+Pr(X=0)=0.008
+\end{align}
 \item A bag contains 3 red balls and 5 black balls. A ball is drawn at random from the bag.
 What is the probability that the ball drawn is\\ 
 (i) red ? \\
@@ -14,6 +26,16 @@ out of the box at random. What is the probability that the marble taken out will
 (i) red ?\\
 (ii) white ? \\
 (iii) not green?
+\\
+\solution 
+Total number of marbles = 5 + 8 + 4 = 17 marbles.
+Let $X \in \{0,1,2\}$ represent the random variable, where 0 represents a red marble, 1 represents a white marble, and 2 represents a green marble. From the given information, 
+\begin{align}
+    Pr(X=0) &= \frac{5}{17} \\
+    Pr(X=1) &= \frac{8}{17} \\
+    Pr(X=2) &= \frac{4}{17} \implies \pr{X\ne 2} = \frac{13}{17}
+\end{align}
+
 \item A piggy bank contains hundred 50p coins, fifty rupee 1 coins, twenty rupee 2 coins and ten rupee 5 coins. If it is equally likely that one of the coins will fall out when the bank is turned upside down, what is the probability that the coin \\
 (i) will be a 50 p coin ?\\
 (ii) will not be a rupee5 coin?\item If each element of a second order determinant is either zero or one, what is the
@@ -127,11 +149,55 @@ bag. What is the probability that the name written on the card is the name of\\
 at random from the box, what is the probability that it will be
 (i) white? (ii) blue? (iii) red?
 \\
+\solution 
+Let the random variable X=\{0,1,2\} represent the marble being blue,white,red.\\
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+         \hline
+        \textbf{Color}&\textbf{X}&\textbf{n(X)} \\
+        \hline    
+         blue&0&3\\
+         \hline
+         white&1&2\\
+         \hline
+         red&2&4\\
+         \hline
+    \end{tabular}
+\end{table}
+As box contain a total of 9 balls and picking any ball is equally likely using the definition of classical probability
+ \begin{align}
+     \pr{X=1}=\frac{n(X=1)}{9}=\frac{2}{9}\\
+     \pr{X=0}=\frac{n(X=0)}{9}=\frac{3}{9}\\
+     \pr{X=2}=\frac{n(X=2)}{9}=\frac{4}{9}
+ \end{align}
 \item One card is drawn from a well-shuffled deck of 52 cards. Calculate the
 probability that the card will\\
 (i) be an ace,\\
 (ii) not be an ace.
 \\
+\solution 
+For convinience, let's denote the cards Ace, J, Q, K by the numbers $\{ 1, 11, 12, 13\}$ respectively. Let $X \in \{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 \}$ denote the outcome of the experiment. We know that there exist exactly 4 cards with a particular number in a deck of 52 cards. Assuming that the deck of cards is well-shuffled, the probability mass function for this experiment is expressed as\\
+\begin{align}
+	\Pr(X=i) = 
+	\begin{cases}
+	\dfrac{4}{52} = \dfrac{1}{13} & 1 \leq i \leq 13, \; i \in \mathbb{N}\\ ~\\[-1em]
+	0 & \text{otherwise}
+	\end{cases}
+\end{align}
+\begin{enumerate}[label = (\roman*)]
+\item Hence, the probability of getting an Ace is 
+\begin{align}
+	\Pr(X=1) = \dfrac{1}{13} 
+\end{align}
+\item Hence, the probability of not getting an Ace is
+\begin{align}
+	\Pr(X \neq 1) &= \sum_{i=2} ^{13} \Pr(X=i) \\
+	&= 1 - \Pr(X=1) \\
+	&= 1 - \dfrac{1}{13} \\
+	&= \dfrac{12}{13}
+\end{align}
+\end{enumerate}
 \item A bag contains 2 white and 1 red balls. One ball is drawn at random and then put back in the box after noting its colour. The process is repeated again. If X denotes the number of red balls recorded in the two draws, describe X.\\
 
 \item Two cards are drawn successively with replacement from a well shuffled deck of 52 cards. Find the probability distribution of the number of aces.\\

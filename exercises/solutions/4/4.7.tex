@@ -1,0 +1,48 @@
+Here we Define Two Random Variables X and Y. \\
+\begin{itemize}
+    \item X Describes whether the Ball Drawn is marked with zero or non-zero digit\\
+    \item Y Describes the number of balls Drawn that are marked with non-zero digit \\
+    \item P(X=0) is the Probability of Drawing any ball \\
+    \item  P(X=1) is the Probability that Ball Drawn is marked with non-zero digit.\\
+\end{itemize}
+we know that
+\begin{equation}
+    P(X=0)=\frac{1}{10}
+\end{equation}
+where Sample space consists all 10 possibilities and among  them the Favourable Outcome is Drawing any ball.\\
+similarly
+\begin{equation}
+    P(X=1)=1-P(X=0)=\frac{9}{10}
+\end{equation}
+One ball among 10 is generally marked with 0.so now Sample Space remains same but Number of Favourable Outcomes becomes 9.\\  \\
+Since Trials are  Bernoulli Trials Hence the Random Variable X.
+let
+\begin{equation}
+    q=P(X=1)
+\end{equation}
+\begin{equation}
+    1-q=P(X=0)
+\end{equation}
+then from equation 2 and 3 
+\begin{equation}
+    q=\frac{9}{10}
+\end{equation}
+Probability that 4 balls are drawn and none of them is marked with zero-digit is 
+\begin{equation}
+    P(Y=4)=\left(\frac{9}{10}\right)^4
+\end{equation}
+\textbf{Generalization}\\
+Above task can be Generalized using Binomial Distribution as
+\begin{equation}
+    P(Y=k)=\binom{n}{k}(q)^k(1-q)^{n-k}
+\end{equation}
+\begin{itemize}
+    \item where n=4
+    \item k is a  discrete variable and can take values from 0 to n
+    \item for n=1000,$q=\frac{999}{1000}$
+\end{itemize}
+%
+the probability that among 4 balls Drawn  none is marked with the digit 0 is
+\begin{equation}
+    P(Y=4)=\left(\frac{9}{10}\right)^4
+\end{equation}

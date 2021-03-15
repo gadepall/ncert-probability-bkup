@@ -1,5 +1,9 @@
+% \renewcommand{\theequation}{\theenumi}
+% \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+% \numberwithin{equation}{enumi}
+
 \renewcommand{\theequation}{\theenumi}
-\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
 \numberwithin{equation}{enumi}
 
 
@@ -24,6 +28,8 @@ will fuse after 150 days of use.\\
 \item Six balls are drawn successively from an urn containing 7 red and 9 black balls. Tell whether or not the trials of drawing balls are Bernoulli trials when after each draw the ball drawn is\\
 (i) replaced \\
 (ii) not replaced in the urn.\\
+\solution
+\input{solutions/3/3.8.tex}
 
 \item If a fair coin is tossed 10 times, find the probability of
 \begin{enumerate}
@@ -115,6 +121,9 @@ at most 6 of a random sample of 10 people are right-handed?\\
 %
 \solution
 \input{solutions/3/3.22.tex}
+\item A bag consists of 10 balls each marked with one of the digits 0 to 9. If four balls are drawn successively with replacement from the bag, what is the probability that none is marked with the digit 0?\\
+\solution
+\input{solutions/4/4.7.tex}
 
 
 \end{enumerate}
