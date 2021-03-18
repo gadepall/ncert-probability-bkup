@@ -1,30 +1,32 @@
-From the given information, Table \ref{table:5.19} can be generated.
-\begin{table}[!ht]
-\centering
-\resizebox{\columnwidth}{!}{
-\begin{tabular}{|p{4cm}|p{4cm}|}
+Let random variable  $X\in\{0,1,2\}$ denote the outcomes of experiment of drawing a shirt from the carton as shown in Table \ref{table:}
+\begin{table}[h]
+\centering 
+\caption{}
+\begin{tabular}{|c|c|c|c|}
 \hline
-\multicolumn{2}{|c|}{\textbf{A Random variable which has 3 possible values}}\\ \hline
-\multirow{2}{*}{$\pr{X=0}=\frac{4}{100}=0.04$} & out of 100, 4 have major defects shirts
-\\
+Type of shirt & X & number      & \pr{X}      \\
 \hline
-\multirow{2}{*}{$\pr{X=1}=\frac{8}{100}=0.08$} & out of 100,8 are accepted minor defected shirts\\ \hline
-\multirow{2}{*}{$\pr{X=2}=\frac{88}{100}=0.88$} & out of 100,88 are accepted good shirts\\ \hline
+good          & 0 & n(X=0) = 88 & $\frac{22}{25}$ \\
+\hline
+minor defect  & 1 & n(X=1) = 8  & $\frac{2}{25}$ \\
+\hline
+major defect  & 2 & n(X=2) = 4  & $\frac{1}{25}$\\
+\hline
 \end{tabular}
-}
-\caption{Random variables}
-\label{table:5.19}
+\label{table:}
 \end{table}
-Then
-\begin{enumerate}
-\item The probability that the shirt is acceptable to Jimmy is
-\begin{align}
-\pr{X=2}=\frac{88}{100}
-\end{align}
-%
-\item The probability that the shirt is acceptable to Sujatha is
-\begin{align}
-1-\pr{X=0}=1-\frac{4}{100} = \frac{96}{100}
-\end{align}
 
+\begin{enumerate}[label={\roman*)}]
+    \item The required probability is
+    \begin{align}
+      p &= \pr{X=0}\\
+        &= \frac{88}{100}\\
+        &= 0.88
+    \end{align}
+    \item The required probability is
+    \begin{align}
+        p &= \pr{X=0}+\pr{X=1}\\
+          &= \frac{88}{100}+\frac{8}{100}\\
+          &=0.96
+    \end{align}
 \end{enumerate}

@@ -17,10 +17,9 @@ Pr(X=1)=1-Pr(X=0)\\
 Pr(X=0)=1-0.992\\
 Pr(X=0)=0.008
 \end{align}
-\item A bag contains 3 red balls and 5 black balls. A ball is drawn at random from the bag.
-What is the probability that the ball drawn is\\ 
-(i) red ? \\
-(ii) not red?
+\item 
+
+
 \item A box contains 5 red marbles, 8 white marbles and 4 green marbles. One marble is taken
 out of the box at random. What is the probability that the marble taken out will be\\
 (i) red ?\\
@@ -43,15 +42,8 @@ probability that the value of the determinant is positive? (Assume that the indi
 assumed with probability $\frac{1}{2}$).\\
 \item If a leap year is selected at random, what is the chance that it will contain 53
 Tuesdays?\\
-\item An urn contains 25 balls of which 10 balls bear a mark 'X' and the remaining 15 bear a mark 'Y'. A ball is drawn at random from the urn, its mark is noted down and it is replaced. If 6 balls are drawn in this way, find the probability that\\
-(i) all will bear 'X' mark.\\
-(ii) not more than 2 will bear 'Y' mark.\\
-(iii) at least one ball will bear 'Y' mark.\\
-(iv) the number of balls with 'X' mark and 'Y' mark will be equal.\\
-\item On a multiple choice examination with three possible answers for each of the five questions, what is the probability that a candidate would get four or more correct answers just by guessing ?\\item Five cards are drawn successively with replacement from a well shuffled deck of 52 cards. What is the probability that\\
-(i) all the five cards are spades?\\
-(ii) only 3 cards are spades?\\
-(iii) none is a spade?\\
+\item
+\item
 \item Suppose that two cards are drawn at random from a deck of cards. Let X be the number of aces obtained. Then the value of E(X) is\\
 \begin{enumerate}
 \item $\frac{37}{221}$
@@ -68,6 +60,32 @@ Tuesdays?\\
 \end{enumerate}
 \item A class has 15 students whose ages are 14, 17, 15, 14, 21, 17, 19, 20, 16, 18, 20,
 17, 16, 19 and 20 years. One student is selected in such a manner that each has the same chance of being chosen and the age X of the selected student is recorded. What is the probability distribution of the random variable X? Find mean, variance and standard deviation of X.\\
+\solution  Table \ref{table:5.11} summarizes the given info.
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+{X} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
+{No. of students} & 2 & 1 & 2 & 3 & 1 & 2 & 3 & 1 \\
+\hline
+{P(X)} & $\frac {2}{15}$ & $\frac {1}{15}$ & $\frac {2}{15}$ & $\frac {3}{15}$ & $\frac {1}{15}$ & $\frac {2}{15}$ & $\frac {3}{15}$ & $\frac {1}{15}$
+\\
+\hline 
+\end{tabular}
+\end{center}
+\caption{}
+\label{table:5.11}
+\end{table}
+using which, 
+ \begin{align}
+      E(X) &= \sum_{i=1}^n x_i \pr{X=i} = \frac{263}{15}
+      \\
+    E(X^2) = \sum_{i=1}^n x_i^2 \pr{X=i} =    \frac{4683}{15}
+    \\
+    \implies Var (X) = \frac{4683}{15} - (\frac{263}{15})^2
+    = 4.78
+    \end{align}
 \item A random variable X has the following probability distribution:\\
 \\$\begin{tabular}{||c c c c c c c c c||} 
  \hline
@@ -125,8 +143,12 @@ conditions.
 \end{align}
 \item A card from a pack of 52 cards is lost. From the remaining cards of the pack, two cards are drawn and are found to be both diamonds. Find the probability of the lost card being a diamond.\\
 \item Suppose a girl throws a die. If she gets a 5 or 6, she tosses a coin three times and notes the number of heads. If she gets 1, 2, 3 or 4, she tosses a coin once and notes whether a head or tail is obtained. If she obtained exactly one head, what is the probability that she threw 1, 2, 3 or 4 with the die?\\
-\item An insurance company insured 2000 scooter drivers, 4000 car drivers and 6000 truck drivers. The probability of an accidents are 0.01, 0.03 and 0.15 respectively. One of the insured persons meets with an accident. What is the probability that he is a scooter driver?\\
+\solution 
+\input{solutions/5/5.17.tex}
 
+\item An insurance company insured 2000 scooter drivers, 4000 car drivers and 6000 truck drivers. The probability of an accidents are 0.01, 0.03 and 0.15 respectively. One of the insured persons meets with an accident. What is the probability that he is a scooter driver?\\
+\solution 
+\input{solutions/5/5.18.tex}
 \item A carton consists of 100 shirts of which 88 are good, 8 have minor defects and 4 have major defects.Jimmy, a trader, will only accept the shirts which are good, but Sujatha, another trader, will only reject the shirts which have major defects.One shirt is drawn at random from the carton. What is the probability that\\
 (i) it is acceptable to Jimmy?\\
 (ii) it is acceptable to Sujatha?
@@ -140,37 +162,14 @@ conditions.
 \item Savita and Hamida are friends. What is the probability that both will have \\
 (i) different birthdays? \\
 (ii) the same birthday? (ignoring a leap year).
-\item There are 40 students in Class X of a school of whom 25 are girls and 15 are boys. The class teacher has to select one student as a class representative. She writes the name of each student on a separate card, the cards being identical.Then
-she puts cards in a bag and stirs them thoroughly. She then draws one card from the
-bag. What is the probability that the name written on the card is the name of\\
-(i) a girl?\\
-(ii) a boy?
+\item 
 \item  A box contains 3 blue, 2 white, and 4 red marbles. If a marble is drawn
 at random from the box, what is the probability that it will be
 (i) white? (ii) blue? (iii) red?
 \\
 \solution 
-Let the random variable X=\{0,1,2\} represent the marble being blue,white,red.\\
-\begin{table}[h]
-    \centering
-    \begin{tabular}{|c|c|c|}
-         \hline
-        \textbf{Color}&\textbf{X}&\textbf{n(X)} \\
-        \hline    
-         blue&0&3\\
-         \hline
-         white&1&2\\
-         \hline
-         red&2&4\\
-         \hline
-    \end{tabular}
-\end{table}
-As box contain a total of 9 balls and picking any ball is equally likely using the definition of classical probability
- \begin{align}
-     \pr{X=1}=\frac{n(X=1)}{9}=\frac{2}{9}\\
-     \pr{X=0}=\frac{n(X=0)}{9}=\frac{3}{9}\\
-     \pr{X=2}=\frac{n(X=2)}{9}=\frac{4}{9}
- \end{align}
+\input{solutions/5/5.23.tex}
+
 \item One card is drawn from a well-shuffled deck of 52 cards. Calculate the
 probability that the card will\\
 (i) be an ace,\\
@@ -198,8 +197,7 @@ For convinience, let's denote the cards Ace, J, Q, K by the numbers $\{ 1, 11, 1
 	&= \dfrac{12}{13}
 \end{align}
 \end{enumerate}
-\item A bag contains 2 white and 1 red balls. One ball is drawn at random and then put back in the box after noting its colour. The process is repeated again. If X denotes the number of red balls recorded in the two draws, describe X.\\
-
+\item 
 \item Two cards are drawn successively with replacement from a well shuffled deck of 52 cards. Find the probability distribution of the number of aces.\\
 
 \item Find the probability distribution of number of doublets in three throws of a pair of dice?\\
@@ -225,7 +223,7 @@ most two hours?
 
 \item Let a pair of dice be thrown and the random variable X be the sum of the numbers that appear on the two dice. Find the mean or expectation of X.\\
 
-\item Find the variance of the number obtained on a throw of an unbiased die.\\
+\item
 
 \item Two cards are drawn simultaneously (or successively without replacement) from a well shuffled pack of 52 cards. Find the mean, variance and standard deviation of the number of kings.\\
 \solution
