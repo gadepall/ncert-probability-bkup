@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  18 MAR 2021 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  22 MAR 2021 19:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1833,23 +1833,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
-(./solutions/1/1.15.tex)
+(./solutions/1/1.14.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
+
+ []
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+(./solutions/1/1.15.tex) (./solutions/1/1.16.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3])
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
 
  []
 
 (./solutions/1-10/chapters/probabilities/problem1/solution.tex)
-(./solutions/1-10/chapters/prob_exm/prob1/solution1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3])
+(./solutions/1-10/chapters/prob_exm/prob1/solution1.tex [4])
 (./solutions/1-10/chapters/prob_exm/prob2/solution2.tex)
 (./solutions/1-10/chapters/prob_exm/prob3/solution3.tex)
 (./solutions/1-10/chapters/prob_exm/prob5/solution5.tex)
-(./solutions/20-10/prob/chapters/exam46/solution.tex) [4]
+(./solutions/20-10/prob/chapters/exam46/solution.tex) [5]
 (./solutions/1-10/chapters/probabilities/problem5/solution.tex)
 (./solutions/20-30/chapters/prob/exercises/docq23.tex)
 (./solutions/20-30/chapters/prob/exercises/docq24.tex)
@@ -1857,13 +1867,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./solutions/40-50/probability/chapters/Q41/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5])
+ [6])
 (./solutions/40-50/probability/chapters/Q42/solution.tex
-Underfull \vbox (badness 5147) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./solutions/20-10/prob/chapters/exer128/solution.tex)
-(./solutions/20-10/prob/chapters/pens127/solution.tex [6])
+(./solutions/20-10/prob/chapters/pens127/solution.tex [7])
 Package epstopdf Info: Source file: <./prob/figs/woman.eps>
 (epstopdf)                    date: 2021-01-06 23:32:22
 (epstopdf)                    size: 152802 bytes
@@ -1872,27 +1882,30 @@ Package epstopdf Info: Source file: <./prob/figs/woman.eps>
 (epstopdf)                    size: 13026 bytes
 (epstopdf)             Command: <repstopdf --outfile=./prob/figs/woman-eps-conv
 erted-to.pdf ./prob/figs/woman.eps>
-(epstopdf)             \includegraphics on input line 196.
+(epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
-<./prob/figs/woman-eps-converted-to.pdf, id=237, 102.3825pt x 134.5025pt>
+<./prob/figs/woman-eps-converted-to.pdf, id=257, 102.3825pt x 134.5025pt>
 File: ./prob/figs/woman-eps-converted-to.pdf Graphic file (type pdf)
 <use ./prob/figs/woman-eps-converted-to.pdf>
 Package pdftex.def Info: ./prob/figs/woman-eps-converted-to.pdf  used on input 
-line 196.
+line 200.
 (pdftex.def)             Requested size: 252.0pt x 331.08142pt.
 
 (./solutions/20-10/prob/chapters/fish/solution.tex)
 (./solutions/10-1/prob/exer2/solution.tex)
 (./solutions/10-1/prob/exer9/solution.tex)
-(./solutions/10-1/prob/exer10/solution.tex [7 <./prob/figs/woman-eps-converted-
-to.pdf>])
+(./solutions/10-1/prob/exer10/solution.tex
+Underfull \vbox (badness 1400) has occurred while \output is active []
+
+ [8 <./prob/figs/woman-eps-converted-to.pdf>])
 LaTeX Font Info:    Trying to load font information for OMS+txr on input line 2
-26.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
+30.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 226.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 230.
 
 (./solutions/5/5.2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1924,13 +1937,13 @@ Underfull \hbox (badness 2368) in paragraph at lines 7--22
  []
 
 
-Underfull \vbox (badness 3482) has occurred while \output is active []
+Underfull \vbox (badness 1194) has occurred while \output is active []
 
- [8]
+ [9])
+(./solutions/2/2.3.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./solutions/2/2.3.tex
+
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
@@ -1940,11 +1953,7 @@ Overfull \hbox (24.92429pt too wide) in paragraph at lines 22--22
 [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9])
-(./solutions/2/2.4.tex
+) (./solutions/2/2.4.tex
 Underfull \hbox (badness 2035) in paragraph at lines 31--2
 \OT1/txr/m/n/12 have grey hair. A grey haired per-son is
  []
@@ -1955,6 +1964,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--2
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
 Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
@@ -1969,11 +1981,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--39
 
  []
 
-
+(./solutions/2/2.6.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-(./solutions/2/2.6.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--12
 
  []
@@ -1981,7 +1992,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--12
 ) (./solutions/2/2.7.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10])
+ [11])
 Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
@@ -2006,16 +2017,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-
+(./solutions/2/2.12.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-
- []
-
+)
 (./solutions/2/2.13.tex
-Underfull \hbox (badness 1540) in paragraph at lines 55--4
+Underfull \hbox (badness 1540) in paragraph at lines 57--4
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 X[] \OMS/txsy
 /m/n/12 2 f\OT1/txr/m/n/12 1\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 2\OML/txmi/m/it
 /12 ; \OT1/txr/m/n/12 3\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 4\OML/txmi/m/it/12 ;
@@ -2024,11 +2031,11 @@ Underfull \hbox (badness 1540) in paragraph at lines 55--4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--4
+Underfull \hbox (badness 10000) in paragraph at lines 57--4
 
  []
 
-
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 []\OT1/txr/m/n/12 Probability of event A hap-pen-
  []
@@ -2039,26 +2046,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
 Underfull \hbox (badness 10000) in paragraph at lines 39--42
 
  []
 
-) (./solutions/2/2.14.tex
-Underfull \hbox (badness 10000) in paragraph at lines 62--4
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./solutions/2/2.14.tex
+Underfull \hbox (badness 10000) in paragraph at lines 64--4
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 A \OMS/txsy/m
 /n/12 2
  []
 
 
-Underfull \hbox (badness 5231) in paragraph at lines 62--4
+Underfull \hbox (badness 5231) in paragraph at lines 64--4
 []$ \OT1/txr/m/n/12 be a ran-dom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--4
+Underfull \hbox (badness 10000) in paragraph at lines 64--4
 
  []
 
@@ -2068,14 +2076,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--9
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 28--31
 
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
 Underfull \hbox (badness 7777) in paragraph at lines 33--35
 \OT1/txr/m/n/12 Substituting equa-tions [],[] in
  []
@@ -2086,18 +2094,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 68--69
-\OT1/txr/m/n/12 Two balls are drawn from the urn one
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 70--71
+\OT1/txr/m/n/12 Two balls are drawn from the urn one
  []
 
 
@@ -2111,15 +2114,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+(./solutions/20-30/chapters/prob/examples/docq25.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-(./solutions/20-30/chapters/prob/examples/docq25.tex)
+)
 (./solutions/20-30/chapters/prob/examples/docq26.tex)
+(./solutions/20-30/chapters/prob/examples/docq27.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-(./solutions/20-30/chapters/prob/examples/docq27.tex
+ [14]
 Overfull \hbox (2.17107pt too wide) detected at line 32
  []$[] \OT1/txr/m/n/12 = [] [] [] [] [] = []$ []  
  []
@@ -2129,19 +2136,15 @@ Underfull \hbox (badness 1668) in paragraph at lines 45--49
 \OT1/txr/m/n/12 Substituting from [] and [] in
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13])
-(./solutions/20-30/chapters/prob/examples/docq28.tex)
-(./solutions/20-30/chapters/prob/examples/docq29.tex
+) (./solutions/20-30/chapters/prob/examples/docq28.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/20-30/chapters/prob/examples/docq30.tex
+(./solutions/20-30/chapters/prob/examples/docq29.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14])
+ [15])
+(./solutions/20-30/chapters/prob/examples/docq30.tex)
 (./solutions/20-10/prob/tables/boxes43.tex
 \gnumericTableWidth=\skip81
 \gnumericTableWidthComplete=\skip82
@@ -2153,32 +2156,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \gnumericColE=\skip88
 )
 (./solutions/20-10/prob/chapters/exam43/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 1668) in paragraph at lines 28--31
 \OT1/txr/m/n/12 Substituting from [] and [] in
  []
 
-
-Underfull \vbox (badness 1102) has occurred while \output is active []
-
-)
-(./solutions/20-10/prob/chapters/exam47/solution.tex)
-(./solutions/20-10/prob/chapters/exam49/solution.tex [15])
+) (./solutions/20-10/prob/chapters/exam47/solution.tex [16])
+(./solutions/20-10/prob/chapters/exam49/solution.tex)
 (./solutions/40-50/probability/chapters/Q47/solution.tex)
 (./solutions/40-50/probability/chapters/Q48/solution.tex
 Overfull \hbox (0.71762pt too wide) detected at line 8
  []$[] \OT1/txr/m/n/9 = []$ []  
  []
 
-) (./solutions/40-50/probability/chapters/Q49/solution.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17])
+(./solutions/40-50/probability/chapters/Q49/solution.tex
 Overfull \hbox (0.71762pt too wide) detected at line 7
  []$[] \OT1/txr/m/n/9 = []$ []  
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16])
-(./solutions/40-50/probability/chapters/Q50/solution.tex
+) (./solutions/40-50/probability/chapters/Q50/solution.tex
 Overfull \hbox (0.71762pt too wide) detected at line 7
  []$[] \OT1/txr/m/n/9 = []$ []  
  []
@@ -2188,17 +2190,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-
-Underfull \hbox (badness 5985) in paragraph at lines 11--12
-[]\OT1/txr/m/n/12 An ex-per-i-ment suc-ceeds twice as of-ten
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-(./solutions/3/3.3.tex
+(./solutions/3/3.2.tex [18]) (./solutions/3/3.3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 19--25
 \OT1/txr/m/n/12 For $[] []$ to be most likely
  []
@@ -2209,10 +2201,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--25
  []
 
 
-Underfull \vbox (badness 2564) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17])
-Underfull \hbox (badness 10000) in paragraph at lines 44--16
+)
+Underfull \hbox (badness 10000) in paragraph at lines 44--19
 
  []
 
@@ -2225,27 +2217,62 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [19])
+(./solutions/3/3.5.tex
+Underfull \vbox (badness 1442) has occurred while \output is active []
+
 )
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
+(./solutions/3/3.6.tex
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\OT1/txr/m/n/12 n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--32
-
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\OT1/txr/m/n/12 (no.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\OT1/txr/m/n/12 of
+ []
+
+
+Overfull \hbox (0.87526pt too wide) in paragraph at lines 29--29
+\OT1/txr/m/n/12 coins)| 
+ []
+
+
+Overfull \hbox (2.73425pt too wide) in paragraph at lines 29--29
+[]|$[] [] \OT1/txr/m/n/12 =
+ []
+
+
+Overfull \hbox (2.73425pt too wide) in paragraph at lines 29--29
+[]|$[] [] \OT1/txr/m/n/12 =
+ []
+
+
+Overfull \hbox (2.73425pt too wide) in paragraph at lines 29--29
+[]|$[] [] \OT1/txr/m/n/12 =
+ []
+
+
+Overfull \hbox (6.0136pt too wide) in paragraph at lines 16--30
+ [][] 
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 (./solutions/3/3.8.tex
-Underfull \hbox (badness 10000) in paragraph at lines 33--3
+Underfull \hbox (badness 10000) in paragraph at lines 41--3
 
  []
 
-[18]
+[20]
 Underfull \hbox (badness 2318) in paragraph at lines 24--29
 \OT1/txr/m/n/12 as X sat-is-fies all prop-er-ties of Bernoulli
  []
@@ -2260,22 +2287,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--29
 
  []
 
-) (./solutions/20-10/prob/chapters/exam41/solution.tex
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./solutions/20-10/prob/chapters/exam42/solution.tex [19])
+
+(./solutions/20-10/prob/chapters/exam41/solution.tex)
+(./solutions/20-10/prob/chapters/exam42/solution.tex [21])
 (./solutions/20-10/prob/chapters/exam44/solution.tex)
 (./solutions/20-10/prob/chapters/exam45/solution.tex
-Underfull \vbox (badness 2662) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./solutions/20-30/chapters/prob/examples/docq22.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20])
+ [22])
 (./solutions/40-50/probability/chapters/Q40/solution.tex
-Underfull \hbox (badness 10000) in paragraph at lines 67--3
+Underfull \hbox (badness 10000) in paragraph at lines 75--3
 
  []
 
@@ -2284,31 +2312,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./solutions/10-1/prob/exer4/solution.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
-(./solutions/10-1/prob/exer5/solution.tex [21]) (./solutions/3/3.17.tex)
-(./solutions/3/3.18.tex
+[23] (./solutions/10-1/prob/exer5/solution.tex) (./solutions/3/3.17.tex)
+(./solutions/3/3.18.tex) (./solutions/3/3.19.tex)
+(./prob/solutions/1/3/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./solutions/3/3.19.tex) (./prob/solutions/1/3/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22])
+ [24])
 (./solutions/1/1.4.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
@@ -2317,99 +2342,117 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./solutions/4/4.7.tex
-Underfull \hbox (badness 3068) in paragraph at lines 129--3
-\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 Here we De-fine Two Ran-dom
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--3
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
+ [25])
+(./solutions/5/5.7.tex
 
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 9.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+) (./solutions/5/5.8.tex
+Underfull \hbox (badness 10000) in paragraph at lines 155--2
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+) (./solutions/5/5.8-1.tex
+Underfull \hbox (badness 6141) in paragraph at lines 160--2
+[]\OT1/txr/m/n/12 Five cards are drawn suc-ces-sively with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--2
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
-Underfull \hbox (badness 10000) in paragraph at lines 16--20
-
+ [26]
+Underfull \hbox (badness 3354) in paragraph at lines 4--6
+\OT1/txr/m/n/12 where X de-notes the num-ber of spades
  []
 
 
-Underfull \hbox (badness 5652) in paragraph at lines 16--20
-\OT1/txr/m/n/12 Since Tri-als are Bernoulli Tri-als Hence
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
  []
 
-) (./solutions/5/5.7.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./solutions/4/4.11.tex [24])
-Underfull \hbox (badness 10000) in paragraph at lines 43--160
+) (./solutions/4/4.11.tex [27])
+Underfull \hbox (badness 10000) in paragraph at lines 43--172
 
  []
 
 (./solutions/5/5.30.tex
-Underfull \hbox (badness 10000) in paragraph at lines 160--1
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
 ) (./solutions/5/5.25.tex
-Underfull \hbox (badness 10000) in paragraph at lines 162--1
+Underfull \hbox (badness 2680) in paragraph at lines 174--27
+\OT1/txr/m/n/12 ball drawn in the first, sec-ond at-tempts.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--27
 
  []
 
-)) (./prob/uniform.tex [25] (./solutions/10-1/prob/codes/tables/input.tex)
-(./solutions/20-10/prob/chapters/dice123/solution.tex)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28])
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./solutions/4/4.6.tex
+Underfull \hbox (badness 10000) in paragraph at lines 176--5
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+))
+(./prob/uniform.tex (./solutions/10-1/prob/codes/tables/input.tex)
+(./solutions/20-10/prob/chapters/dice123/solution.tex [29])
 Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
-
- []
-
-
-Underfull \hbox (badness 2302) in paragraph at lines 35--36
-\OT1/txr/m/n/12 when two fair dice are rolled. Find the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+(./solutions/4/4.5.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
-(./solutions/4/4.10.tex
+) (./solutions/4/4.9.tex [30]) (./solutions/4/4.10.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
 Underfull \hbox (badness 2529) in paragraph at lines 21--22
 []\OT1/txr/m/n/12 since choos-ing of $\OML/txmi/m/it/12 X[]; X[]$ \OT1/txr/m/n/
 12 are in-de-pen-dent
  []
 
 
-Underfull \vbox (badness 5802) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26])
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+)
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
@@ -2421,34 +2464,37 @@ Package epstopdf Info: Source file: <./prob/figs/lake.eps>
 (epstopdf)                    size: 67858 bytes
 (epstopdf)             Command: <repstopdf --outfile=./prob/figs/lake-eps-conve
 rted-to.pdf ./prob/figs/lake.eps>
-(epstopdf)             \includegraphics on input line 51.
+(epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<./prob/figs/lake-eps-converted-to.pdf, id=847, 362.35374pt x 201.75375pt>
+<./prob/figs/lake-eps-converted-to.pdf, id=990, 362.35374pt x 201.75375pt>
 File: ./prob/figs/lake-eps-converted-to.pdf Graphic file (type pdf)
 <use ./prob/figs/lake-eps-converted-to.pdf>
 Package pdftex.def Info: ./prob/figs/lake-eps-converted-to.pdf  used on input l
-ine 51.
+ine 57.
 (pdftex.def)             Requested size: 252.0pt x 140.31233pt.
-
-Underfull \hbox (badness 1983) in paragraph at lines 47--55
+(./solutions/4/4.14.tex
+Underfull \hbox (badness 1983) in paragraph at lines 53--24
 []\OT1/txr/m/n/12 A miss-ing he-li-copter is re-ported to have
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-(./solutions/1/1/4/solution.tex (./solutions/1/1/4/sheet_random.tex)
-(./solutions/1/1/4/sheet_random_2.tex)
+Underfull \vbox (badness 1838) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+ [32 <./prob/figs/lake-eps-converted-to.pdf>]
+Overfull \hbox (8.19632pt too wide) in paragraph at lines 50--63
+ [][] 
+ []
 
-[27 <./prob/figs/lake-eps-converted-to.pdf>])
-(./solutions/20-10/prob/chapters/exam50/solution.tex
+) (./solutions/1/1/4/solution.tex (./solutions/1/1/4/sheet_random.tex)
+(./solutions/1/1/4/sheet_random_2.tex) [33])
+(./solutions/20-10/prob/chapters/exam50/solution.tex)
+(./solutions/20-30/chapters/prob/exercises/docq25.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/20-30/chapters/prob/exercises/docq25.tex)
 Package epstopdf Info: Source file: <./prob/figs/clock.eps>
 (epstopdf)                    date: 2021-01-06 23:32:22
 (epstopdf)                    size: 110502 bytes
@@ -2457,134 +2503,174 @@ Package epstopdf Info: Source file: <./prob/figs/clock.eps>
 (epstopdf)                    size: 10949 bytes
 (epstopdf)             Command: <repstopdf --outfile=./prob/figs/clock-eps-conv
 erted-to.pdf ./prob/figs/clock.eps>
-(epstopdf)             \includegraphics on input line 93.
+(epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
-<./prob/figs/clock-eps-converted-to.pdf, id=876, 84.315pt x 115.43124pt>
+<./prob/figs/clock-eps-converted-to.pdf, id=1042, 84.315pt x 115.43124pt>
 File: ./prob/figs/clock-eps-converted-to.pdf Graphic file (type pdf)
 <use ./prob/figs/clock-eps-converted-to.pdf>
 Package pdftex.def Info: ./prob/figs/clock-eps-converted-to.pdf  used on input 
-line 93.
+line 101.
 (pdftex.def)             Requested size: 252.0pt x 345.00883pt.
 
-(./solutions/20-10/prob/chapters/chance/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28]))
-(./prob/misc.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 1253) has occurred while \output is active []
-
- [29 <./prob/figs/clock-eps-converted-to.pdf>]
+(./solutions/20-10/prob/chapters/chance/solution.tex [34 <./prob/figs/clock-eps
+-converted-to.pdf>])) (./prob/misc.tex
 Underfull \hbox (badness 10000) in paragraph at lines 40--43
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+(./solutions/5/5.6.tex
+Underfull \hbox (badness 10000) in paragraph at lines 43--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 43--6
 
  []
 
 
-Overfull \hbox (18.59618pt too wide) in paragraph at lines 66--76
+Underfull \hbox (badness 10000) in paragraph at lines 43--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--6
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35])
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+(./solutions/5/5.9.tex
+Underfull \hbox (badness 10000) in paragraph at lines 56--3
+
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 4--23
+\OT1/txr/m/n/12 where 0 rep-re-sents sec-ond card be-ing an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--23
+
+ []
+
+
+Underfull \vbox (badness 1533) has occurred while \output is active []
+
+) [36]
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+
+ []
+
+(./solutions/5/5.10.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+Overfull \hbox (18.59618pt too wide) in paragraph at lines 74--84
  [] 
  []
 
 
-Overfull \hbox (56.743pt too wide) in paragraph at lines 88--88
+Overfull \hbox (56.743pt too wide) in paragraph at lines 96--96
 [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 2961) in paragraph at lines 89--101
+(./solutions/5/5.12.tex
+Underfull \hbox (badness 2961) in paragraph at lines 97--1
 []\OT1/txr/m/n/12 A ran-dom vari-able X has the fol-low-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--101
+Underfull \hbox (badness 10000) in paragraph at lines 97--1
 
  []
 
 
-Overfull \hbox (12.6561pt too wide) in paragraph at lines 89--101
+Overfull \hbox (12.6561pt too wide) in paragraph at lines 97--1
 []$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--101
+Underfull \hbox (badness 10000) in paragraph at lines 97--1
 
  []
 
+[37]
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--104
-
- []
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 49.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--121
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--129
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
-
- []
-
-(./solutions/5/5.17.tex
-Underfull \hbox (badness 10000) in paragraph at lines 145--3
-
- []
-
-
-Overfull \hbox (14.38945pt too wide) detected at line 9
-[][] [] [] \OT1/txr/m/n/12 = []
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/5/5.18.tex
-Underfull \hbox (badness 2027) in paragraph at lines 149--2
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+(./solutions/5/5.17.tex
+Underfull \hbox (badness 10000) in paragraph at lines 158--3
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38pdfTeX warning (ext4): destination with the same identifier (name{equation.
+215.1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.3 
+    ]
+Overfull \hbox (14.38945pt too wide) detected at line 9
+[][] [] [] \OT1/txr/m/n/12 = []
+ []
+
+) (./solutions/5/5.18.tex
+Underfull \hbox (badness 2027) in paragraph at lines 162--2
 \OT1/txr/m/n/12 drivers, 4000 car drivers and 6000 truck
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 5260) in paragraph at lines 8--10
@@ -2597,108 +2683,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31])
-(./solutions/5/5.19.tex
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 158--162
+[39]) (./solutions/5/5.19.tex) (./solutions/5/5.20.tex) (./solutions/5/5.21.tex
+[40]) (./solutions/5/5.24.tex
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--162
-
- []
-
-(./solutions/5/5.23.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32])
-Underfull \hbox (badness 10000) in paragraph at lines 173--180
-\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 For con-vinience, let's de-note
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--180
-\OT1/txr/m/n/12 the cards Ace, J, Q, K by the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--180
-\OT1/txr/m/n/12 num-bers $\OMS/txsy/m/n/12 f\OT1/txr/m/n/12 1\OML/txmi/m/it/12 
-; \OT1/txr/m/n/12 11\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 12\OML/txmi/m/it/12 ; \
-OT1/txr/m/n/12 13\OMS/txsy/m/n/12 g$ \OT1/txr/m/n/12 re-spec-tively. Let
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--180
-
- []
-
-
-Underfull \hbox (badness 6110) in paragraph at lines 201--202
+) (./solutions/5/5.26.tex
+Underfull \hbox (badness 6110) in paragraph at lines 202--1
 []\OT1/txr/m/n/12 Two cards are drawn suc-ces-sively with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 202--1
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
-
- []
-
-(./solutions/5/5.28.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33])
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
-
- []
-
-(./solutions/5/5.31.tex)
-(./solutions/1-10/chapters/prob_exm/prob6/solution6.tex
+ [41])
+(./solutions/5/5.27.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 255--258
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
 
-(./solutions/1-10/chapters/prob_exm/prob7/solution7.tex
-Underfull \vbox (badness 2913) has occurred while \output is active []
+(./solutions/5/28/Assignment2.tex
+Underfull \vbox (badness 2326) has occurred while \output is active []
 
- [34])
-(./solutions/1-10/chapters/prob_exm/prob9/solution9.tex
+ [42]
+<solutions/5/28/Figures/PMF.png, id=1301, 394.47375pt x 279.0425pt>
+File: solutions/5/28/Figures/PMF.png Graphic file (type png)
+<use solutions/5/28/Figures/PMF.png>
+Package pdftex.def Info: solutions/5/28/Figures/PMF.png  used on input line 52.
+
+(pdftex.def)             Requested size: 252.0pt x 178.25873pt.
+<solutions/5/28/Figures/CDF.png, id=1303, 394.47375pt x 279.0425pt>
+File: solutions/5/28/Figures/CDF.png Graphic file (type png)
+<use solutions/5/28/Figures/CDF.png>
+Package pdftex.def Info: solutions/5/28/Figures/CDF.png  used on input line 79.
+
+(pdftex.def)             Requested size: 252.0pt x 178.25873pt.
+<solutions/5/28/Figures/stem.png, id=1307, 387.4475pt x 262.9825pt>
+File: solutions/5/28/Figures/stem.png Graphic file (type png)
+<use solutions/5/28/Figures/stem.png>
+Package pdftex.def Info: solutions/5/28/Figures/stem.png  used on input line 13
+6.
+(pdftex.def)             Requested size: 252.0pt x 171.04893pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+(./solutions/5/5.31.tex [43 <./solutions/5/28/Figures/PMF.png> <./solutions/5/2
+8/Figures/CDF.png>]) (./solutions/1-10/chapters/prob_exm/prob6/solution6.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 260--263
+
+ []
+
+(./solutions/1-10/chapters/prob_exm/prob7/solution7.tex) [44 <./solutions/5/28/
+Figures/stem.png>] (./solutions/1-10/chapters/prob_exm/prob9/solution9.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 309--313
+Underfull \hbox (badness 10000) in paragraph at lines 314--318
 
  []
 
 (./solutions/1-10/chapters/prob_exm/prob10/solution10.tex)
-(./solutions/1-10/chapters/probabilities/problem2/solution.tex [35])
+(./solutions/1-10/chapters/probabilities/problem2/solution.tex
+Underfull \vbox (badness 1132) has occurred while \output is active []
+
+ [45])
 (./solutions/1-10/chapters/probabilities/problem3/question.tex
 Package epstopdf Info: Source file: <./solutions/1-10/figures/prob/prob3.eps>
 (epstopdf)                    date: 2021-01-06 23:32:34
@@ -2716,7 +2777,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/1-10/figures/prob/prob3-eps-converte
 d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<./solutions/1-10/figures/prob/prob3-eps-converted-to.pdf, id=1121, 462.72874pt
+<./solutions/1-10/figures/prob/prob3-eps-converted-to.pdf, id=1410, 462.72874pt
  x 346.29375pt>
 File: ./solutions/1-10/figures/prob/prob3-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2726,10 +2787,8 @@ df  used on input line 3.
 (pdftex.def)             Requested size: 252.0pt x 188.5916pt.
 ) (./solutions/1-10/chapters/probabilities/problem3/solution.tex)
 (./solutions/1-10/chapters/probabilities/problem4/solution.tex)
-(./solutions/1-10/chapters/probabilities/problem4/solution.tex
-Underfull \vbox (badness 2073) has occurred while \output is active []
-
- [36 <./solutions/1-10/figures/prob/prob3-eps-converted-to.pdf>])
+(./solutions/1-10/chapters/probabilities/problem4/solution.tex) [46 <./solution
+s/1-10/figures/prob/prob3-eps-converted-to.pdf>]
 (./solutions/1-10/chapters/probabilities/problem7/solution.tex
 Package epstopdf Info: Source file: <./solutions/1-10/figures/prob/prob7.eps>
 (epstopdf)                    date: 2021-01-06 23:32:34
@@ -2747,7 +2806,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/1-10/figures/prob/prob7-eps-converte
 d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<./solutions/1-10/figures/prob/prob7-eps-converted-to.pdf, id=1193, 462.72874pt
+<./solutions/1-10/figures/prob/prob7-eps-converted-to.pdf, id=1483, 462.72874pt
  x 346.29375pt>
 File: ./solutions/1-10/figures/prob/prob7-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2760,10 +2819,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-[37 <./solutions/1-10/figures/prob/prob7-eps-converted-to.pdf>])
-(./solutions/1-10/chapters/probabilities/problem10/solution.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [47 <./solutions/1-10/figures/prob/prob7-eps-converted-to.pdf>])
+(./solutions/1-10/chapters/probabilities/problem10/solution.tex
 Package epstopdf Info: Source file: <./solutions/1-10/figures/prob/prob10.eps>
 (epstopdf)                    date: 2021-01-06 23:32:34
 (epstopdf)                    size: 15120 bytes
@@ -2780,7 +2840,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/1-10/figures/prob/prob10-eps-convert
 ed-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
-<./solutions/1-10/figures/prob/prob10-eps-converted-to.pdf, id=1263, 325.215pt 
+<./solutions/1-10/figures/prob/prob10-eps-converted-to.pdf, id=1547, 325.215pt 
 x 216.81pt>
 File: ./solutions/1-10/figures/prob/prob10-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2789,26 +2849,27 @@ Package pdftex.def Info: ./solutions/1-10/figures/prob/prob10-eps-converted-to.
 pdf  used on input line 43.
 (pdftex.def)             Requested size: 252.0pt x 168.00284pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 492--495
+Underfull \hbox (badness 10000) in paragraph at lines 497--500
 
  []
 
-[38 <./solutions/1-10/figures/prob/prob10-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 495--497
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--502
 
  []
 
-(./solutions/20-30/chapters/prob/exercises/docq26.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
+[48 <./solutions/1-10/figures/prob/prob10-eps-converted-to.pdf>]
+(./solutions/20-30/chapters/prob/exercises/docq26.tex)
 (./solutions/20-10/prob/chapters/cards125/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39])
+) [49]
 (./solutions/20-10/prob/chapters/cards126/solution.tex)
 (./solutions/20-10/prob/chapters/exer129/solution.tex) (./prob/figs/130.tex)
-(./solutions/20-10/prob/chapters/exer130/solution.tex [40
+(./solutions/20-10/prob/chapters/exer130/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50
 Non-PDF special ignored!
 <special> ps: 
 Non-PDF special ignored!
@@ -3161,8 +3222,8 @@ Non-PDF special ignored!
 (./solutions/10-1/prob/exer7/solution.tex
 (./solutions/10-1/prob/tables/prob7_inp.tex)
 (./solutions/10-1/prob/tables/prob7_1.tex)
-(./solutions/10-1/prob/tables/prob7_2.tex)
-(./solutions/10-1/prob/tables/prob7_3.tex) [41])
+(./solutions/10-1/prob/tables/prob7_2.tex) [51]
+(./solutions/10-1/prob/tables/prob7_3.tex))
 Package epstopdf Info: Source file: <./prob/figs/rows.eps>
 (epstopdf)                    date: 2021-01-06 23:32:22
 (epstopdf)                    size: 201967 bytes
@@ -3171,49 +3232,45 @@ Package epstopdf Info: Source file: <./prob/figs/rows.eps>
 (epstopdf)                    size: 22363 bytes
 (epstopdf)             Command: <repstopdf --outfile=./prob/figs/rows-eps-conve
 rted-to.pdf ./prob/figs/rows.eps>
-(epstopdf)             \includegraphics on input line 559.
+(epstopdf)             \includegraphics on input line 564.
 Package epstopdf Info: Output file is already uptodate.
-<./prob/figs/rows-eps-converted-to.pdf, id=1411, 315.1775pt x 173.64874pt>
+<./prob/figs/rows-eps-converted-to.pdf, id=1694, 315.1775pt x 173.64874pt>
 File: ./prob/figs/rows-eps-converted-to.pdf Graphic file (type pdf)
 <use ./prob/figs/rows-eps-converted-to.pdf>
 Package pdftex.def Info: ./prob/figs/rows-eps-converted-to.pdf  used on input l
-ine 559.
+ine 564.
 (pdftex.def)             Requested size: 252.0pt x 138.84233pt.
 
 (./solutions/10-1/prob/exer8/solution.tex
-Underfull \hbox (badness 2229) in paragraph at lines 557--6
+Underfull \hbox (badness 2229) in paragraph at lines 562--6
 []\OT1/txr/m/n/12 A die is num-bered in such a way that
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 557--6
+Underfull \hbox (badness 2005) in paragraph at lines 562--6
 \OT1/txr/m/n/12 6. It is thrown two times and the to-tal
  []
 
 
-Underfull \hbox (badness 3000) in paragraph at lines 557--6
+Underfull \hbox (badness 3000) in paragraph at lines 562--6
 \OT1/txr/m/n/12 score in two throws is noted. Com-plete
  []
 
 
-Underfull \hbox (badness 5563) in paragraph at lines 557--6
+Underfull \hbox (badness 5563) in paragraph at lines 562--6
 \OT1/txr/m/n/12 the fol-low-ing ta-ble which gives a few
  []
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 557--6
+Overfull \hbox (24.0pt too wide) in paragraph at lines 562--6
 [] 
  []
 
 (./solutions/10-1/prob/codes/tables/prob8_probout.tex
 \gnumericColF=\skip89
 \gnumericColG=\skip90
-)
-Underfull \vbox (badness 1776) has occurred while \output is active []
-
-))
-(./prob/axioms.tex (./solutions/6/6.3.tex [42 <./prob/figs/rows-eps-converted-t
-o.pdf>]
+))) (./prob/axioms.tex
+(./solutions/6/6.3.tex [52 <./prob/figs/rows-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -3225,120 +3282,138 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--39
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
-Underfull \hbox (badness 5607) in paragraph at lines 54--61
+ [53]
+(./solutions/6/6.7.tex
+Underfull \hbox (badness 5607) in paragraph at lines 54--2
 []\OT1/txr/m/n/12 An elec-tronic as-sem-bly con-sists of two
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--61
+Underfull \hbox (badness 10000) in paragraph at lines 54--2
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--61
-
+Underfull \hbox (badness 10000) in paragraph at lines 6--9
+\OT1/txr/m/n/12 Now,we need to find
  []
 
-(./solutions/6/6.8.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
+Overfull \hbox (6.52522pt too wide) in paragraph at lines 19--22
+\OT1/txr/m/n/12 Therefore, $[] []$=$[] []$=0.05 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+\OT1/txr/m/n/12 Now, we need to find
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Overfull \hbox (25.9721pt too wide) in paragraph at lines 41--43
+\OT1/txr/m/n/12 Therefore, $[] []$=$[] []$=0.5 
+ []
+
+) (./solutions/6/6.8.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
 
 (./solutions/6/6.9.tex
-Underfull \hbox (badness 10000) in paragraph at lines 73--3
+Underfull \hbox (badness 10000) in paragraph at lines 76--3
 
  []
 
-) (./solutions/6/6.11.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44])
-(./solutions/6/6.12.tex
+ [54])
+(./solutions/6/6.11.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/6/6.13.tex
-Underfull \hbox (badness 10000) in paragraph at lines 95--3
+(./solutions/6/6.12.tex) (./solutions/6/6.13.tex
+Underfull \hbox (badness 10000) in paragraph at lines 98--3
 
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
 Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
+
 (./solutions/6/6.15.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46])
-Underfull \hbox (badness 1867) in paragraph at lines 147--149
+ [56])
+Underfull \hbox (badness 1867) in paragraph at lines 150--152
 \OT1/txr/m/n/12 in green is tossed. Let A be the event,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--149
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
-(./solutions/6/6.17.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
+(./solutions/6/6.17.tex) (./solutions/6/6.19.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+Overfull \hbox (10.10548pt too wide) in paragraph at lines 19--30
+[][] 
  []
 
-(./solutions/20-30/chapters/prob/examples/docq21.tex)
+) (./solutions/20-30/chapters/prob/examples/docq21.tex)
 (./solutions/20-30/chapters/prob/examples/docq23.tex)
-(./solutions/20-30/chapters/prob/examples/docq24.tex
+(./solutions/20-30/chapters/prob/examples/docq24.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47])
+ [58]
 (./solutions/6/6.25.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/6/6.27.tex
+(./solutions/6/6.27.tex) (./solutions/20-30/chapters/prob/exercises/docq22.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48])
-(./solutions/20-30/chapters/prob/exercises/docq22.tex
+ [59]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/20-30/chapters/prob/exercises/docq27.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [49])
+(./solutions/20-30/chapters/prob/exercises/docq27.tex)
 (./solutions/20-30/chapters/prob/exercises/docq28.tex)
 (./solutions/20-30/chapters/prob/exercises/docq29.tex)
 (./solutions/40-50/probability/chapters/Q43/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./solutions/40-50/probability/chapters/Q46/solution.tex)) [50]
+ [60])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./solutions/40-50/probability/chapters/Q46/solution.tex)) [61]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 313.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
 
@@ -3350,29 +3425,30 @@ Package rerunfilecheck Info: File `gvv_ncert_prob.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
  ) 
 Here is how much of TeX's memory you used:
- 51006 strings out of 481239
- 1244516 string characters out of 5920377
- 1737404 words of memory out of 5000000
- 63542 multiletter control sequences out of 15000+600000
+ 51415 strings out of 481239
+ 1250285 string characters out of 5920377
+ 1741174 words of memory out of 5000000
+ 63639 multiletter control sequences out of 15000+600000
  630840 words of font info for 248 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,16n,98p,733b,1593s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,98p,733b,1889s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/rtxsc.pfb></root/texmf/fonts/type1/tfrupee/tfrupee.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_prob.pdf (50 pages, 523933 bytes).
+e/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
+onts/rtxsc.pfb></root/texmf/fonts/type1/tfrupee/tfrupee.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfo
+nts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on gvv_ncert_prob.pdf (61 pages, 593219 bytes).
 PDF statistics:
- 2100 PDF objects out of 2487 (max. 8388607)
- 1928 compressed objects within 20 object streams
- 1368 named destinations out of 1440 (max. 500000)
- 84 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2463 PDF objects out of 2487 (max. 8388607)
+ 2270 compressed objects within 23 object streams
+ 1608 named destinations out of 1728 (max. 500000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
