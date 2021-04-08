@@ -114,8 +114,8 @@ columns=fullflexible
      \def\topbox#1{\raisebox{-\baselineskip}[0in][0in]{#1}}
      \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
 \vspace{3cm}
-\title{ 7.2,7.3}%number
-\author{7.2,7.3}
+\title{ 7.2-7.4}%number
+\author{7.2-7.4}
 \maketitle
 \newpage
 \bigskip
@@ -195,12 +195,6 @@ P_e(N) =
 \end{cases}
 \end{align}
 %
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=\columnwidth]{7.2.png}
-\caption{$P_e(N)$ when A is Rayleigh with scale 1}
-\label{fig:probman_p_e}
-\end{figure}
 
 %
 \item
@@ -235,7 +229,7 @@ If $x<0, P_e(x)=0$ and using the fact that for an even function
 \end{align}
 we get
 \begin{align}
-  P_e&= \frac{1}{\sqrt{2\pi}}\int_{-\infty}^{0}\exp \brak{ -\frac{x^2}{2}} \brak{1-\exp \brak{ -\frac{x^2}{2\sigma^2}} }  dx\\
+  P_e&= \frac{1}{\sqrt{2\pi}}\int_{-\infty}^{0}\exp \brak{ -\frac{x^2}{2}} \brak{1-\exp \brak{ -\frac{x^2}{2\sigma^2}} } dx\\
 &= \frac{1}{2\sqrt{2\pi}} \int_{-\infty}^{\infty} \exp \brak{ -\frac{x^2}{2} }dx \nonumber \\
 &- \frac{1}{2\sqrt{2\pi}} \int_{-\infty}^{\infty} \exp \brak{-\frac{(1+ \sigma^2)x^2}{2 \sigma^2}}  dx\\
 &= \frac{\sqrt{2\pi} - \sqrt{\frac{\pi(2\sigma^2)}{1+\sigma^2}}}{2\sqrt{2\pi}}\\
@@ -249,8 +243,17 @@ E\sbrak{A^2} = 2\sigma^2\\
 \end{align}
 %
 \item
-Plot $P_e$ in problems \ref{ch4_sim} and \ref{ch4_anal} on the same graph w.r.t $\gamma$.  Comment.
-
+Plot $P_e$ in problems \ref{ch4_sim} and \ref{ch4_anal} on the same graph w.r.t $\gamma$.  Comment.\\
+\solution $P_e$ is plotted w.r.t $\gamma$ in \ref{fig:probman_p_e_gamma} using the code below.
+\begin{lstlisting}
+https://github.com/AmulyaTallamraju/AI1103/blob/main/probman/codes/7.4.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{7.4.png}
+\caption{$P_e$ w.r.t $\gamma$}
+\label{fig:probman_p_e_gamma}
+\end{figure}
 %
 \end{enumerate}
 \end{document}
