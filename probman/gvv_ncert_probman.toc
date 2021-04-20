@@ -16,6 +16,6 @@
 \contentsline {subsection}{\numberline {6.2}Using Jacobian}{10}{subsection.6.2}%
 \contentsline {section}{\numberline {7}Conditional Probability}{11}{section.7}%
 \contentsline {section}{\numberline {8}Two Dimensions}{12}{section.8}%
-\contentsline {section}{\numberline {9}Transform Domain: Moment Generating Function}{12}{section.9}%
-\contentsline {section}{\numberline {10}Uniform to Other: Quantile function}{13}{section.10}%
-\contentsline {section}{\numberline {11}Miscellaneous Distributions}{13}{section.11}%
+\contentsline {section}{\numberline {9}Transform Domain: Moment Generating Function}{14}{section.9}%
+\contentsline {section}{\numberline {10}Uniform to Other: Quantile function}{14}{section.10}%
+\contentsline {section}{\numberline {11}Miscellaneous Distributions}{15}{section.11}%
